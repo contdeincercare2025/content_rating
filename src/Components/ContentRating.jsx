@@ -7,8 +7,9 @@ class ContentRating extends Component {
     super();
     this.state = {
       likes: 0,
-      dislikes: 0}
-    handleLike:() => {
+      dislikes: 0
+    }
+    {handleLike:() => {
         this.setState((prevState) => ({likes: prevState.likes +1}));
       };
     handleDislike:() => {
